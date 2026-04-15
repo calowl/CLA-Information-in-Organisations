@@ -1,0 +1,60 @@
+body {background: rgb(134, 134, 234);}
+
+body {color : black;}
+
+th, td {border: 1px solid black; padding: 5px ; background-color: white;}
+
+footer {
+    background-color: rgb(255, 255, 255); color: black; width: 100%; padding: 20px;
+    position: fixed;bottom: 0;left: 0;box-sizing: border-box;
+}
+
+.container { width: 400px ; margin:auto}
+
+body {
+    font-family: 'Roboto', sans-serif;  /* all body text */
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;  /* headings only */
+}
+
+/* Side‑by‑side layout for the images and your main content */
+.manga-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Containers for the left / right images */
+.side-img {
+    flex: 0 0 auto;
+    width: 180px;
+    max-width: 22vw;
+}
+
+.side-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    background: #fff4e8;
+}
+
+/* On smaller screens, images shrink or stack */
+@media (max-width: 700px) {
+    .manga-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+    .side-img {
+        width: 200px;
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+<?xml-stylesheet type="text/xsl" href="bookstyle.xsl"?>
+
+<bookstore>
+  <book>
+    <title>One Piece, Vol. 1</title>
+    <author>Eiichiro Oda</author>
+    <genre>Shonen</genre>
+    <price>£9.99</price>
+    <year>1997</year>
+    <stock>Yes</stock>
+  </book>
+  
+  <book>
+    <title>Naruto, Vol. 1</title>
+    <author>Masashi Kishimoto</author>
+    <genre>Shonen</genre>
+    <price>£8.99</price>
+    <year>1999</year>
+    <stock>Yes</stock>
+  </book>
+  
+  <book>
+    <title>Fruits Basket, Vol. 1</title>
+    <author>Natsuki Takaya</author>
+    <genre>Shoujo</genre>
+    <price>£10.99</price>
+    <year>1999</year>
+    <stock>Yes</stock>
+  </book>
+  
+  <book>
+    <title>Berserk, Vol. 1</title>
+    <author>Kentaro Miura</author>
+    <genre>Seinen</genre>
+    <price>£14.99</price>
+    <year>1990</year>
+    <stock>No</stock>
+  </book>
+  
+  <book>
+    <title>Attack on Titan, Vol. 1</title>
+    <author>Hajime Isayama</author>
+    <genre>Fantasy</genre>
+    <price>£11.99</price>
+    <year>2009</year>
+    <stock>Yes</stock>
+  </book>
+  
+  <book>
+    <title>March Comes in Like a Lion, Vol. 1</title>
+    <author>Chica Umino</author>
+    <genre>Slice of Life</genre>
+    <price>£12.99</price>
+    <year>2007</year>
+    <stock>Yes</stock>
+  </book>
+  
+  <book>
+    <title>My Love Story!!, Vol. 1</title>
+    <author>Kazune Kawahara</author>
+    <genre>Shoujo</genre>
+    <price>£9.99</price>
+    <year>2011</year>
+    <stock>Yes</stock>
+  </book>
+  
+  <book>
+    <title>Vinland Saga, Vol. 1</title>
+    <author>Makoto Yukimura</author>
+    <genre>Seinen</genre>
+    <price>£16.99</price>
+    <year>2005</year>
+    <stock>Yes</stock>
+  </book>
+</bookstore>
